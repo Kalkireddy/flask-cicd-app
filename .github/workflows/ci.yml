@@ -1,7 +1,7 @@
 name: CI - Build & push Docker Image
 
 on:
-  push: 
+  push:
     branches:
       - main
 
@@ -13,9 +13,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Log in to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           push: true
+          tags: kalkireddy118/flask-cicd-app:latest
+
           tags: kalkireddy118/flask-cicd-app:latest
