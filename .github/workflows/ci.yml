@@ -26,4 +26,4 @@ jobs:
           push: true
           tags: kalkireddy118/flask-cicd-app:latest
 
-          tags: kalkireddy118/flask-cicd-app:latest
+
