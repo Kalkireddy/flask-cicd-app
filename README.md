@@ -10,6 +10,23 @@ A lightweight Flask application demonstrating CI/CD automation using GitHub Acti
 
 ---
 
+## 🏗️ Architecture Overview
+
+![CI/CD Pipeline Architecture](docs/architecture.drawio.png)
+
+### Components
+
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| **Source Control** | GitHub | Version control & code repository |
+| **CI/CD Pipeline** | GitHub Actions | Automated testing & build |
+| **Testing** | Python unittest | Unit test validation |
+| **Containerization** | Docker | Package application for deployment |
+| **Application** | Flask | Python web framework |
+| **Deployment Target** | AWS (optional) | Deploy Docker image to cloud |
+
+---
+
 ## 📌 Project Overview
 
 This project demonstrates:
@@ -146,14 +163,73 @@ Together with my Terraform AWS repo, this demonstrates end-to-end DevOps capabil
 
 ---
 
-## 📬 Contact
+## � Learning Resources
 
-If you'd like help building similar CI/CD pipelines or cloud infrastructure, feel free to reach out.
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Docker Official Documentation](https://docs.docker.com/)
+- [Flask Documentation](https://flask.palletsprojects.com/)
+- [Python CI/CD Best Practices](https://docs.python-guide.org/dev/ci-cd/)
+- [DevOps Best Practices](https://aws.amazon.com/devops/what-is-devops/)
 
 ---
 
-## 🌐 Portfolio
+## 📝 License
 
-**Visit my portfolio:** [shivdevops.cloud](https://shivdevops.cloud)
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE) file for complete details.
 
-Explore more projects and infrastructure solutions that demonstrate my expertise in DevOps, Cloud Architecture, and Infrastructure as Code.
+**License Summary:**
+- ✅ **Free to use, modify, and distribute**
+- ✅ **Commercial use allowed**
+- ✅ Attribution appreciated but not required
+- ✅ Use as reference or fork for your own projects
+
+---
+
+## 👨‍💼 About the Author
+
+**Shiv — Cloud & DevOps Architect**
+
+**Expertise & Focus Areas:**
+- ☸️ Kubernetes Expert (EKS, multi-cluster deployments, Helm)
+- 🚀 Infrastructure as Code specialist (Terraform, CloudFormation)
+- 🏗️ AWS Cloud Architecture & Design
+- 💰 Cost Optimization & Performance Tuning
+- 💼 Available for Upwork, contract work, and consulting
+
+**Currently Pursuing:**
+- 🎯 AWS Certified Solutions Architect (Professional) — In preparation
+
+**Specializations:**
+- AWS Infrastructure (EC2, VPC, ALB, ASG, RDS, S3, IAM)
+- Kubernetes & Containerization (Docker, Helm, GitOps, HPA)
+- Infrastructure as Code (Terraform, modular design)
+- CI/CD Pipelines (GitHub Actions, Jenkins, automated deployments)
+- Cost Optimization, performance tuning, and security hardening
+
+**Open Source Contributions:**
+- Maintain public DevOps portfolios & reusable templates
+- MIT Licensed infrastructure & CI/CD projects
+- Available for technical mentoring and consulting
+
+---
+
+## 🌐 My DevOps Portfolio
+
+Explore more projects showcasing DevOps expertise:
+
+**→ [shivdevops.cloud](https://shivdevops.cloud)**
+
+**Other Projects:**
+- [Kubernetes EKS Portfolio](https://github.com/Kalkireddy/kubernetes-eks-portfolio) — Production Kubernetes on AWS
+- [Terraform AWS Infrastructure](https://github.com/Kalkireddy/terraform-aws-portfolio-infrastructure) — Modular AWS IaC
+- [Portfolio Website](https://shivdevops.cloud) — Live professional portfolio
+
+---
+
+## 📬 Let's Connect
+
+Looking to build scalable CI/CD pipelines or cloud infrastructure? Let's talk.
+
+- 💼 **Upwork:** Available for consulting & contract work
+- 📧 **Portfolio:** [shivdevops.cloud](https://shivdevops.cloud)
+- 🐙 **GitHub:** [Kalkireddy](https://github.com/Kalkireddy)
